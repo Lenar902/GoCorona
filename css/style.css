@@ -14,27 +14,20 @@ body {
 }
 
 /**************HEADER***********/
-.wrapper {
-	height: 100%;
-	width: 100%; 
-    overflow-x: hidden; 
-}
+
 .header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;  
-	background-color: white;
-	z-index: 9;
-	
+	background-color: #fafbfd;
 }
 .header__row {
     display: flex;    
     min-height: 114px;
     align-items: center;  
     position: relative;
-    z-index: 9; 
-	background-color: white;
+    z-index: 10; 	
 }
 
 .header__logo {
@@ -69,7 +62,7 @@ body {
     display: flex;
     justify-content: flex-end; 
     position: relative;
-    z-index: 9;           
+    z-index: 10;           
 }
 
 .button__link {    
